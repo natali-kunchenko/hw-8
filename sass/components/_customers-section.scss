@@ -1,0 +1,37 @@
+.customer__box{
+    display: flex;
+    justify-content: center;
+}
+.customer {
+    &__link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        color: $color-gray;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__link:hover {
+        color: $color-hover;
+    }
+    &__item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 92px;
+        width: 170px;
+        border: $color-gray solid 1px;
+        border-radius: 4px;  
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__item:not(:last-child) {
+        margin-right: 30px; 
+    }
+    &__item:hover {
+        border: $color-hover solid 1px;
+   }
+    &__logo {
+        fill: currentcolor;
+    }
+}

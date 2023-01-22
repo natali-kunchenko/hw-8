@@ -1,0 +1,38 @@
+body {
+    color: $color-main;
+    font-family: $font-roboto;
+    margin: 0 auto;
+}li {
+    list-style-type: none;
+}
+a {
+    text-decoration-line: none;
+}
+h1, h2, h3, h4, h5, h6, ul, p {
+    margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+ul {
+    padding: 0;
+}
+.conteiner {
+    /* max-width: 1200px; */
+    max-width: 768px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.section {
+    padding: 94px 0;
+}
+
+
+/* 320-480 гумка (max width: 480)
+    480-767px - мобільна
+   768-1199px - планшети
+   від 1200px - десктопи 
+   
+   до 480 - мобільна
+   480-767 - планшети
+   від 768px - десктопи*/
